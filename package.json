@@ -1,0 +1,22 @@
+{
+  "name": "allsides-scraper",
+  "version": "1.0.0",
+  "description": "Scraper for AllSides bias ratings for news sites",
+  "main": "newsscrape.js",
+  "scripts": {
+    "start": "node newsscrape.js"
+  },
+  "keywords": [
+    "scraper",
+    "allsides"
+  ],
+  "author": "autumn smith",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "lodash": "^4.17.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "underscore-deep-extend": "^1.1.5"
+  }
+}
