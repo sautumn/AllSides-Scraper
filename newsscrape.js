@@ -14,13 +14,16 @@ var data = {};
 
 var options = {
   method: 'GET',
-  url: 'http://www.allsides.com/bias/bias-ratings',
+  url: 'https://www.allsides.com/media-bias/media-bias-ratings',
   qs:
     {
-      field_news_source_type_tid: '2',
-      field_news_bias_nid: '1',
+      'field_news_source_type_tid[2]': '2',
+      'field_news_bias_nid_1[1]': '1',
+      'field_news_bias_nid_1[2]': '2',
+      'field_news_bias_nid_1[3]': '3',
       field_featured_bias_rating_value: 'All',
-      title: ''
+      title: '',
+      customFilter: '1'
     },
   form: {}
 };
